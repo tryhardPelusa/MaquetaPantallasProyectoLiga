@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Alert" id="1" x="302" y="125" text="Ejemplo" measuredWidth="72" measuredHeight="93" icon="warning (large)">
+  <widgets xsi:type="model:Window" id="5" x="136" y="64" width="497" height="361" text="Iniciar Sesion" measuredWidth="497" measuredHeight="361"/>
+  <widgets xsi:type="model:Label" id="6" x="244" y="112" width="257" text="Iniciar Sesion" measuredWidth="257" measuredHeight="56" textAlignment="Center">
+    <font size="40px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="208" y="192" width="89" measuredWidth="89" measuredHeight="22">
     <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="8" x="272" y="192" width="201" text="Username" measuredWidth="201" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="9" x="272" y="233" width="201" text="Password" measuredWidth="201" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="336" y="272" width="73" height="33" text="Acceder" measuredWidth="73" measuredHeight="33" background="#00f" style="round">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="308" y="320" width="129" text="¿No tienes cuenta aún?" measuredWidth="129" measuredHeight="22">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="264" y="341" width="101" height="33" text="Registrarse" measuredWidth="101" measuredHeight="33" background="#00f" style="round">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="384" y="341" width="101" height="33" text="Invitado" measuredWidth="101" measuredHeight="33" background="#00f" style="round">
+    <font size="15px" bold="true"/>
   </widgets>
   <hRuler/>
   <vRuler/>
-  <font size="12px"/>
+  <font name="Bahnschrift" size="12px"/>
 </model:Screen>
