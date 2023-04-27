@@ -18,7 +18,7 @@
   <widgets xsi:type="model:Button" id="12" x="510" y="381" text="Unirme" measuredWidth="59" measuredHeight="25" background="#00f" style="round">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="13" x="472" y="472" width="200" text="Resultados posibles:&#xD;&#xA;- ¡Felicidades! Te has unido al equipo&#xD;&#xA;- No se ha encontrado el equipo&#xD;&#xA;- El equipo está lleno" measuredWidth="200" measuredHeight="56">
+  <widgets xsi:type="model:TextArea" id="13" x="472" y="456" width="200" height="76" text="Resultados posibles:&#xD;&#xA;- ¡Felicidades! Te has unido al equipo&#xD;&#xA;- No se ha encontrado el equipo&#xD;&#xA;- El equipo está lleno" measuredWidth="200" measuredHeight="76">
     <font size="10px"/>
   </widgets>
   <widgets xsi:type="model:Image" id="14" x="864" y="422" width="160" height="106" measuredWidth="160" measuredHeight="106" src="assets/el-equipo-de-fútbol-del-deporte-con-el-entrenador-agrupe-la-foto-76609484.jpg"/>
