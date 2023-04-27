@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="88" y="48" width="610" height="343" text="Fucker'S League" measuredWidth="610" measuredHeight="343"/>
+  <widgets xsi:type="model:Menu" id="5" x="88" y="67" width="610" text="Ligas, Apuestas, Equipos                                                                                                             Mi Cuenta, Sign Out" measuredWidth="610" measuredHeight="27">
+    <items x="5" y="0" width="38" height="27" text="Ligas"/>
+    <items x="43" y="0" width="59" height="27" text="Apuestas"/>
+    <items x="102" y="0" width="435" height="27" text="Equipos                                                                                                             Mi Cuenta"/>
+    <items x="537" y="0" width="57" height="27" text="Sign Out"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="552" y="232" height="24" text="Crear Equipo" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="552" y="264" width="88" height="24" text="Crear Liga" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="9" x="168" y="136" width="336" text="Liga A" measuredWidth="336" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="10" x="168" y="176" width="336" height="168" text="Equipo,P. Jug,=. Vict,Perd, Pts&#xA;1. R.Madrid,31,46, 13, 74&#xA;2. Barcelona,27, 12, 7, 65&#xA;3. Betis,16,71,9, 37" measuredWidth="336" measuredHeight="168" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="552" y="200" width="88" height="24" text="Ver Equipo" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="12" x="552" y="136" width="88" text="Buscar Liga" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
