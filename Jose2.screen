@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="88" y="48" width="610" height="343" text="Fucker'S League" measuredWidth="610" measuredHeight="343"/>
+  <widgets xsi:type="model:Window" id="1" x="88" y="48" width="610" height="343" text="Sport's Buddies App" measuredWidth="610" measuredHeight="343"/>
   <widgets xsi:type="model:Menu" id="5" x="88" y="67" width="610" text="Ligas, Apuestas, Equipos                                                                                                             Mi Cuenta, Sign Out" measuredWidth="610" measuredHeight="27">
     <items x="5" y="0" width="38" height="27" text="Ligas"/>
     <items x="43" y="0" width="59" height="27" text="Apuestas"/>
