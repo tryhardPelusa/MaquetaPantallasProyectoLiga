@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="328" y="128" width="610" height="343" text="Unirse a Liga" measuredWidth="610" measuredHeight="343"/>
+  <widgets xsi:type="model:Label" id="2" x="504" y="168" text="Unirse a una liga" measuredWidth="320" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="3" x="610" y="307" text="IOKLER8G4" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="439" y="307" text="Introduzca un codigo de union:" measuredWidth="172" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="592" y="438" text="No tienes equipo?, crea o unete a uno :D" measuredWidth="219" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="810" y="437" text="Unirse" measuredWidth="53" measuredHeight="25" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="864" y="437" text="Crear" measuredWidth="48" measuredHeight="25" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="329" y="168" width="608" measuredWidth="608" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="9" x="802" y="147" text="Mi Cuenta" measuredWidth="61" measuredHeight="23">
+    <font underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="352" y="147" text="Apuestas" measuredWidth="54" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="888" y="147" text="saldo" measuredWidth="34" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

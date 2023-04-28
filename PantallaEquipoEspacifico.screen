@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="352" y="144" width="610" height="343" text="Equipo" measuredWidth="610" measuredHeight="343"/>
+  <widgets xsi:type="model:Label" id="2" x="504" y="184" text="Equipo especifico" measuredWidth="334" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="376" y="250" width="174" height="226" measuredWidth="174" measuredHeight="226"/>
+  <widgets xsi:type="model:Label" id="4" x="401" y="260" text="Integrantes del equipo" measuredWidth="124" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="5" x="414" y="288" text="* Paco&#xD;&#xA;* Juan&#xD;&#xA;* Rodolfo&#xD;&#xA;* Guillermo&#xD;&#xA;* kike&#xD;&#xA;* Raúl&#xD;&#xA;* Daniel&#xD;&#xA;* Alejandro&#xD;&#xA;* Sergio&#xD;&#xA;* Miguel" measuredWidth="77" measuredHeight="150">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="6" x="556" y="250" width="204" height="226" measuredWidth="204" measuredHeight="226"/>
+  <widgets xsi:type="model:Label" id="7" x="596" y="260" text="Deportes Participados" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="8" x="615" y="282" text="* Baloncesto&#xD;&#xA;* futbol&#xD;&#xA;* golf" measuredWidth="83" measuredHeight="45">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="632" y="351" text="Sede" measuredWidth="31" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="10" x="571" y="384" text="C/avenida de margarita nº5" measuredWidth="154" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="11" x="768" y="250" width="176" height="226" measuredWidth="176" measuredHeight="226"/>
+  <widgets xsi:type="model:Label" id="12" x="783" y="260" text="Ligas en las que participan" measuredWidth="145" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="13" x="816" y="286" text="* liga A&#xD;&#xA;* Liga B&#xD;&#xA;* Liga C&#xD;&#xA;* Liga D" measuredWidth="58" measuredHeight="60">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="353" y="184" width="608" measuredWidth="608" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="826" y="163" text="Mi Cuenta" measuredWidth="61" measuredHeight="23">
+    <font underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="376" y="163" text="Apuestas" measuredWidth="54" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="912" y="163" text="saldo" measuredWidth="34" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
