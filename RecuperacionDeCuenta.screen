@@ -20,7 +20,7 @@
     <widgets xsi:type="model:Label" id="8" x="233" y="80" width="143" text="¿No puedes acceder?" measuredWidth="143" measuredHeight="24">
       <font size="13px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Button" id="9" x="249" y="280" width="112" height="21" text="Recuperar Cuenta" measuredWidth="112" measuredHeight="21">
+    <widgets xsi:type="model:Button" id="9" x="249" y="280" width="127" height="21" text="Recuperar Cuenta" measuredWidth="127" measuredHeight="21" background="#00f" style="round">
       <font/>
     </widgets>
     <widgets xsi:type="model:Label" id="10" x="164" y="112" width="282" text="Por favor, introduzca su nombre de usuario" measuredWidth="282" measuredHeight="24">

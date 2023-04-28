@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:WidgetGroup" id="42" x="207" y="360" measuredWidth="804" measuredHeight="383">
-    <widgets xsi:type="model:Window" id="3" x="194" y="40" width="610" height="343" text="Window" measuredWidth="610" measuredHeight="343"/>
-    <widgets xsi:type="model:Label" id="4" x="362" width="273" text="Pantalla de inicio (Usuario/Invitado)" measuredWidth="273" measuredHeight="28">
-      <font size="17px"/>
-    </widgets>
-    <widgets xsi:type="model:Menu" id="11" x="204" y="69" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos                                                                                     ,&amp;Mi cuenta, &amp;Sign out" measuredWidth="590" measuredHeight="27">
-      <items x="5" y="0" width="41" height="27" text="&amp;Ligas"/>
-      <items x="46" y="0" width="64" height="27" text="&amp;Apuestas"/>
-      <items x="110" y="0" width="343" height="27" text="&amp;Equipos                                                                                     "/>
-      <items x="453" y="0" width="67" height="27" text="&amp;Mi cuenta"/>
-      <items x="520" y="0" width="58" height="27" text="&amp;Sign out"/>
-    </widgets>
-    <widgets xsi:type="model:List" id="45" x="204" y="95" height="58" text="Crear Liga&#xA;|Unir Liga&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" measuredWidth="70" measuredHeight="58">
-      <font/>
-      <items x="0" y="2" width="70" height="21" text="Crear Liga"/>
-      <items x="0" y="23" width="70" height="21" text="|Unir Liga"/>
-      <items x="0" y="44" width="70" height="21"/>
-      <items x="0" y="65" width="70" height="21"/>
-      <items x="0" y="86" width="70" height="21"/>
-      <items x="0" y="107" width="70" height="21"/>
-      <items x="0" y="128" width="70" height="21"/>
-    </widgets>
-    <widgets xsi:type="model:Note" id="46" y="58" width="154" height="175" text="En la barra de menu:&#xA;Tendrás varias opciones para ir moviendote por las paginas. Cuando le das a una opcion se te habrirá una lista ,para seleccionar donde quieres ir.&#xA;&#xA;" measuredWidth="154" measuredHeight="175">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="43" x="401" y="992" measuredWidth="610" measuredHeight="399">
+  <widgets xsi:type="model:WidgetGroup" id="43" x="232" y="152" measuredWidth="610" measuredHeight="399">
     <widgets xsi:type="model:Window" id="12" y="56" width="610" height="343" text="Window" measuredWidth="610" measuredHeight="343"/>
     <widgets xsi:type="model:Label" id="13" x="215" width="193" text="Pantalla De &quot;Mi Cuenta" measuredWidth="193" measuredHeight="28">
       <font size="17px"/>
@@ -76,15 +50,13 @@
     <widgets xsi:type="model:Label" id="37" x="367" y="200" width="81" text="Telefono:" measuredWidth="81" measuredHeight="24">
       <font size="13px"/>
     </widgets>
-    <widgets xsi:type="model:TextField" id="39" x="431" y="240" width="135" text="Fecha de nacimiento" measuredWidth="135" measuredHeight="23">
-      <font/>
-    </widgets>
     <widgets xsi:type="model:Label" id="40" x="328" y="241" text="Fecha Nacimiento:" measuredWidth="104" measuredHeight="21">
       <font size="11px"/>
     </widgets>
-    <widgets xsi:type="model:Button" id="47" x="471" y="323" width="95" height="21" text="Cambiar datos" measuredWidth="95" measuredHeight="21">
+    <widgets xsi:type="model:Button" id="47" x="471" y="323" width="95" height="21" text="Cambiar datos" measuredWidth="95" measuredHeight="21" background="#00f">
       <font/>
     </widgets>
+    <widgets xsi:type="model:DateField" id="48" x="431" y="239" text="  /  /  " measuredWidth="58" measuredHeight="23"/>
   </widgets>
   <hRuler/>
   <vRuler/>
