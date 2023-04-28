@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="88" y="48" width="610" height="343" text="Sport's Buddies App" measuredWidth="610" measuredHeight="343"/>
+  <widgets xsi:type="model:TabbedPane" id="20" x="168" y="159" width="336" height="169" text="Clasificacion, Calendario" measuredWidth="336" measuredHeight="169" selection="0">
+    <items x="10" y="0" width="88" height="27" text="Clasificacion"/>
+    <items x="98" y="0" width="78" height="27" text="Calendario"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="5" x="88" y="67" width="610" text="Ligas, Apuestas, Equipos                                                                                                             Mi Cuenta, Sign Out" measuredWidth="610" measuredHeight="27">
+    <items x="5" y="0" width="38" height="27" text="Ligas"/>
+    <items x="43" y="0" width="59" height="27" text="Apuestas"/>
+    <items x="102" y="0" width="435" height="27" text="Equipos                                                                                                             Mi Cuenta"/>
+    <items x="537" y="0" width="57" height="27" text="Sign Out"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="552" y="200" width="88" height="24" text="Ver Equipo" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="552" y="232" width="88" height="24" text="Apostar" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="10" x="168" y="216" width="336" height="89" text="Equipo,P. Jug,=. Vict,Perd, Pts&#xA;1. R.Madrid,31,46, 13, 74&#xA;2. Barcelona,27, 12, 7, 65&#xA;3. Betis,16,71,9, 37" measuredWidth="336" measuredHeight="89" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="304" y="120" width="177" text="LIGA DAM U-TAD" measuredWidth="177" measuredHeight="23" textAlignment="Center">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="552" y="264" width="88" height="24" text="Modificar" measuredWidth="88" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="23" x="752" y="232" width="145" height="96" text="(1) El boton &quot;Modificar&quot; solo le aparecera al administrador de liga, para poder introducir los resultados" measuredWidth="145" measuredHeight="96">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="24" x="648" y="264" width="17" height="24" text="1" measuredWidth="17" measuredHeight="24">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
