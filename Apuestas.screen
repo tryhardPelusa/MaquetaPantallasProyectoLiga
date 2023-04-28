@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="136" y="47" width="610" height="343" text="Apuestas" measuredWidth="610" measuredHeight="343"/>
-  <widgets xsi:type="model:Menu" id="2" x="144" y="66" width="594" text="&amp;Ligas, &amp;Apuestas, &amp;Equipos                                                                                                           &amp;Mi cuenta, &amp;Sign out" measuredWidth="594" measuredHeight="27">
-    <items x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
-    <items x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
-    <items x="102" y="0" width="427" height="27" text="&amp;Equipos                                                                                                           &amp;Mi cuenta"/>
-    <items x="529" y="0" width="55" height="27" text="&amp;Sign out"/>
-  </widgets>
   <widgets xsi:type="model:Label" id="3" x="324" y="90" width="233" text="Jornada 7" measuredWidth="233" measuredHeight="53" textAlignment="Center">
     <font size="32px" bold="true"/>
   </widgets>
@@ -100,6 +94,13 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:HLine" id="39" x="634" y="146" width="73" measuredWidth="73" measuredHeight="6"/>
+  <widgets xsi:type="model:Menu" id="40" x="146" y="66" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">
+    <items link="pantallaPrincipal.screen" x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
+    <items link="" x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
+    <items link="CrearEquipo.screen" x="102" y="0" width="53" height="27" text="&amp;Equipos"/>
+    <items link="MiCuenta.screen" x="155" y="0" width="373" height="27" text="                                                                                                       &amp;Mi cuenta"/>
+    <items link="Login.screen" x="528" y="0" width="55" height="27" text="&amp;Sign out"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

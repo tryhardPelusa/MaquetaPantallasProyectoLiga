@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="377" y="120" width="610" height="343" text="Registro" measuredWidth="610" measuredHeight="343"/>
-  <widgets xsi:type="model:DateField" id="2" x="720" y="320" width="153" text="29/01/2004" measuredWidth="153" measuredHeight="23"/>
-  <widgets xsi:type="model:Label" id="3" x="605" y="320" text="Fecha de nacimiento" measuredWidth="116" measuredHeight="23">
+  <widgets xsi:type="model:DateField" id="2" x="721" y="286" width="153" text="29/01/2004" measuredWidth="153" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="3" x="606" y="286" text="Fecha de nacimiento" measuredWidth="116" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="715" y="320" text="*" measuredWidth="11" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="4" x="716" y="286" text="*" measuredWidth="11" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="7" x="459" y="280" text="Usuario" measuredWidth="46" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="7" x="460" y="246" text="Usuario" measuredWidth="46" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="8" x="520" y="280" width="63" text="Ramón" measuredWidth="63" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:TextField" id="8" x="521" y="246" width="63" text="Ramón" measuredWidth="63" measuredHeight="23" textAlignment="Center">
     <font bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="9" x="459" y="312" width="57" text="Apellido 1" measuredWidth="57" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="9" x="460" y="278" width="57" text="Apellido 1" measuredWidth="57" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="10" x="521" y="312" width="62" text="Ortega" measuredWidth="62" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:TextField" id="10" x="522" y="278" width="62" text="Ortega" measuredWidth="62" measuredHeight="23" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="12" x="456" y="344" text="Apellido 2" measuredWidth="59" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="12" x="457" y="310" text="Apellido 2" measuredWidth="59" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="13" x="524" y="344" width="58" text="Flores" measuredWidth="58" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:TextField" id="13" x="525" y="310" width="58" text="Flores" measuredWidth="58" measuredHeight="23" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Tooltip" id="16" x="684" y="272" text="los menores de 18 años no podran apostar&#xD;&#xA;" measuredWidth="234" measuredHeight="40" textAlignment="Center">
+  <widgets xsi:type="model:Tooltip" id="16" x="685" y="238" text="los menores de 18 años no podran apostar&#xD;&#xA;" measuredWidth="234" measuredHeight="40" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="17" x="456" y="376" text="Telefono" measuredWidth="51" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="17" x="457" y="342" text="Telefono" measuredWidth="51" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="18" x="524" y="376" text="Opcional" measuredWidth="59" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:TextField" id="18" x="525" y="342" text="Opcional" measuredWidth="59" measuredHeight="23" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="19" x="450" y="408" text="Contraseña" measuredWidth="66" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="19" x="451" y="374" text="Contraseña" measuredWidth="66" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="20" x="524" y="408" width="58" text=".........." measuredWidth="58" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:TextField" id="20" x="525" y="374" width="58" text=".........." measuredWidth="58" measuredHeight="23" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="21" x="575" y="168" text="Registro" measuredWidth="161" measuredHeight="67">
+  <widgets xsi:type="model:Label" id="21" x="581" y="160" text="Registro" measuredWidth="166" measuredHeight="68">
     <font size="43px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="23" x="496" y="280" text=" *" measuredWidth="14" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="23" x="497" y="246" text=" *" measuredWidth="14" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="24" x="508" y="408" text=" *" measuredWidth="14" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="24" x="509" y="374" text=" *" measuredWidth="14" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="509" y="312" text=" *" measuredWidth="14" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="25" x="510" y="278" text=" *" measuredWidth="14" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="26" x="865" y="429" text="Registrarse" measuredWidth="77" measuredHeight="25" background="#3d85c6">
+  <widgets xsi:type="model:Button" id="26" x="866" y="395" text="Registrarse" measuredWidth="77" measuredHeight="25" background="#3d85c6">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="28" x="623" y="386" text="se añadiran 300 monedas una &#xD;&#xA;vez se halla registrado, una cierta &#xD;&#xA;cantidad de monedas se renovaran &#xD;&#xA;diariamente" measuredWidth="196" measuredHeight="68">
+  <widgets xsi:type="model:TextArea" id="28" x="624" y="352" text="se añadiran 300 monedas una &#xD;&#xA;vez se halla registrado, una cierta &#xD;&#xA;cantidad de monedas se renovaran &#xD;&#xA;diariamente" measuredWidth="196" measuredHeight="68">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="32" x="710" y="352" text="*" measuredWidth="11" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="32" x="711" y="318" text="*" measuredWidth="11" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="51" x="674" y="352" text="Correo" measuredWidth="42" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="51" x="675" y="318" text="Correo" measuredWidth="42" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="52" x="735" y="352" text=" *" measuredWidth="14" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="52" x="736" y="318" text=" *" measuredWidth="14" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="53" x="720" y="352" width="146" text="secomoJose@sisoy.com" measuredWidth="146" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:TextField" id="53" x="721" y="318" width="146" text="secomoJose@sisoy.com" measuredWidth="146" measuredHeight="23" textAlignment="Center">
     <font/>
   </widgets>
   <widgets xsi:type="model:HLine" id="87" x="377" y="148" width="608" measuredWidth="608" measuredHeight="6"/>

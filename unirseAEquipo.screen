@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="2" x="432" y="216" width="610" height="343" text="Window" measuredWidth="610" measuredHeight="343"/>
-  <widgets xsi:type="model:Menu" id="5" x="442" y="246" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">
-    <items x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
-    <items x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
-    <items x="102" y="0" width="53" height="27" text="&amp;Equipos"/>
-    <items x="155" y="0" width="373" height="27" text="                                                                                                       &amp;Mi cuenta"/>
-    <items x="528" y="0" width="55" height="27" text="&amp;Sign out"/>
-  </widgets>
   <widgets xsi:type="model:Label" id="6" x="472" y="325" width="136" text="Introduce el ID del equipo" measuredWidth="136" measuredHeight="23">
     <font/>
   </widgets>
@@ -22,6 +15,13 @@
     <font size="10px"/>
   </widgets>
   <widgets xsi:type="model:Image" id="14" x="864" y="422" width="160" height="106" measuredWidth="160" measuredHeight="106" src="assets/el-equipo-de-fútbol-del-deporte-con-el-entrenador-agrupe-la-foto-76609484.jpg"/>
+  <widgets xsi:type="model:Menu" id="15" x="442" y="245" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">
+    <items link="pantallaPrincipal.screen" x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
+    <items link="Apuestas.screen" x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
+    <items link="CrearEquipo.screen" x="102" y="0" width="53" height="27" text="&amp;Equipos"/>
+    <items link="MiCuenta.screen" x="155" y="0" width="373" height="27" text="                                                                                                       &amp;Mi cuenta"/>
+    <items link="Login.screen" x="528" y="0" width="55" height="27" text="&amp;Sign out"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

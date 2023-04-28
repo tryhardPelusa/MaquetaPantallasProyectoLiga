@@ -4,12 +4,6 @@
   <widgets xsi:type="model:Label" id="2" x="298" y="93" text="Mis Apuestas" measuredWidth="205" measuredHeight="53" textAlignment="Center">
     <font size="32px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Menu" id="3" x="101" y="67" width="594" text="&amp;Ligas, &amp;Apuestas, &amp;Equipos                                                                                                           &amp;Mi cuenta, &amp;Sign out" measuredWidth="594" measuredHeight="27">
-    <items x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
-    <items x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
-    <items x="102" y="0" width="427" height="27" text="&amp;Equipos                                                                                                           &amp;Mi cuenta"/>
-    <items x="529" y="0" width="55" height="27" text="&amp;Sign out"/>
-  </widgets>
   <widgets xsi:type="model:Panel" id="4" x="112" y="160" width="273" height="193" measuredWidth="273" measuredHeight="193"/>
   <widgets xsi:type="model:Panel" id="5" x="416" y="160" width="273" height="193" measuredWidth="273" measuredHeight="193"/>
   <widgets xsi:type="model:VScrollbar" id="6" x="352" y="170" height="173" measuredWidth="17" measuredHeight="173"/>
@@ -20,55 +14,62 @@
   <widgets xsi:type="model:Label" id="9" x="508" y="138" width="90" text="Finalizadas" measuredWidth="90" measuredHeight="29" textAlignment="Center">
     <font size="16px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="172" y="177" width="79" text="R.Madrid" measuredWidth="79" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="10" x="172" y="177" width="79" text="R.Madrid" measuredWidth="79" measuredHeight="29">
     <font size="15px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="13" x="244" y="176" width="131" text="- Barcelona" measuredWidth="131" measuredHeight="29">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="14" x="128" y="179" width="49" text="27/05" measuredWidth="49" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="14" x="128" y="179" width="49" text="27/05" measuredWidth="49" measuredHeight="27">
     <font size="13px"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="15" x="144" y="203" width="161" measuredWidth="161" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="16" x="172" y="223" text="Almería" measuredWidth="61" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="16" x="172" y="223" text="Almería" measuredWidth="66" measuredHeight="29">
     <font size="15px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="17" x="232" y="223" width="131" text="- Getafe" measuredWidth="131" measuredHeight="29">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="18" x="128" y="227" width="49" text="14/06" measuredWidth="49" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="18" x="128" y="227" width="49" text="14/06" measuredWidth="49" measuredHeight="27">
     <font size="13px"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="19" x="144" y="251" width="161" measuredWidth="161" measuredHeight="6"/>
   <widgets xsi:type="model:Panel" id="20" x="426" y="176" width="231" height="28" measuredWidth="231" measuredHeight="28" background="#0f0" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="21" x="426" y="210" width="231" height="28" measuredWidth="231" measuredHeight="28" background="#f00" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="22" x="426" y="244" width="231" height="28" measuredWidth="231" measuredHeight="28" background="#0f0" alpha="128" border="none"/>
-  <widgets xsi:type="model:Label" id="23" x="472" y="176" width="79" text="R.Madrid" measuredWidth="79" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="23" x="472" y="176" width="79" text="R.Madrid" measuredWidth="79" measuredHeight="29">
     <font size="15px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="24" x="544" y="175" width="131" text="- Huesca" measuredWidth="131" measuredHeight="29">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="428" y="178" width="49" text="04/03" measuredWidth="49" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="25" x="428" y="178" width="49" text="04/03" measuredWidth="49" measuredHeight="27">
     <font size="13px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="31" x="472" y="210" width="79" text="Barcelona" measuredWidth="79" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="31" x="472" y="210" width="79" text="Barcelona" measuredWidth="79" measuredHeight="29">
     <font size="15px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="32" x="544" y="209" width="131" text="- Betis" measuredWidth="131" measuredHeight="29">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="33" x="428" y="212" width="49" text="14/04" measuredWidth="49" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="33" x="428" y="212" width="49" text="14/04" measuredWidth="49" measuredHeight="27">
     <font size="13px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="34" x="472" y="244" width="79" text="Zaragoza -" measuredWidth="79" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="34" x="472" y="244" width="79" text="Zaragoza -" measuredWidth="79" measuredHeight="29">
     <font size="15px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="35" x="550" y="244" width="131" text="Cádiz" measuredWidth="131" measuredHeight="29">
     <font size="16px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="428" y="246" width="49" text="22/04" measuredWidth="49" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="36" x="428" y="246" width="49" text="22/04" measuredWidth="49" measuredHeight="27">
     <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="37" x="106" y="77" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">
+    <items link="pantallaPrincipal.screen" x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
+    <items link="Apuestas.screen" x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
+    <items link="CrearEquipo.screen" x="102" y="0" width="53" height="27" text="&amp;Equipos"/>
+    <items link="MiCuenta.screen" x="155" y="0" width="373" height="27" text="                                                                                                       &amp;Mi cuenta"/>
+    <items link="Login.screen" x="528" y="0" width="55" height="27" text="&amp;Sign out"/>
   </widgets>
   <hRuler/>
   <vRuler>

@@ -6,12 +6,6 @@
     <items x="98" y="0" width="78" height="27" text="Calendario"/>
     <font/>
   </widgets>
-  <widgets xsi:type="model:Menu" id="5" x="88" y="67" width="610" text="Ligas, Apuestas, Equipos                                                                                                             Mi Cuenta, Sign Out" measuredWidth="610" measuredHeight="27">
-    <items x="5" y="0" width="38" height="27" text="Ligas"/>
-    <items x="43" y="0" width="59" height="27" text="Apuestas"/>
-    <items x="102" y="0" width="435" height="27" text="Equipos                                                                                                             Mi Cuenta"/>
-    <items x="537" y="0" width="57" height="27" text="Sign Out"/>
-  </widgets>
   <widgets xsi:type="model:Button" id="11" x="552" y="200" width="88" height="24" text="Ver Equipo" measuredWidth="88" measuredHeight="24">
     <font/>
   </widgets>
@@ -32,6 +26,13 @@
   </widgets>
   <widgets xsi:type="model:Callout" id="24" x="648" y="264" width="17" height="24" text="1" measuredWidth="17" measuredHeight="24">
     <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="25" x="98" y="77" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">
+    <items link="pantallaPrincipal.screen" x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
+    <items link="Apuestas.screen" x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
+    <items link="CrearEquipo.screen" x="102" y="0" width="53" height="27" text="&amp;Equipos"/>
+    <items link="MiCuenta.screen" x="155" y="0" width="373" height="27" text="                                                                                                       &amp;Mi cuenta"/>
+    <items link="Login.screen" x="528" y="0" width="55" height="27" text="&amp;Sign out"/>
   </widgets>
   <hRuler/>
   <vRuler/>
