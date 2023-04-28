@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="136" y="47" width="610" height="343" text="Apuestas" measuredWidth="610" measuredHeight="343"/>
+  <widgets xsi:type="model:Menu" id="2" x="144" y="66" width="594" text="&amp;Ligas, &amp;Apuestas, &amp;Equipos                                                                                                           &amp;Mi cuenta, &amp;Sign out" measuredWidth="594" measuredHeight="27">
+    <items x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
+    <items x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
+    <items x="102" y="0" width="427" height="27" text="&amp;Equipos                                                                                                           &amp;Mi cuenta"/>
+    <items x="529" y="0" width="55" height="27" text="&amp;Sign out"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="324" y="90" width="233" text="Jornada 7" measuredWidth="233" measuredHeight="53" textAlignment="Center">
+    <font size="32px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="4" x="288" y="136" width="305" height="219" measuredWidth="305" measuredHeight="219"/>
+  <widgets xsi:type="model:Panel" id="5" x="604" y="100" width="134" height="276" measuredWidth="134" measuredHeight="276"/>
+  <widgets xsi:type="model:Text" id="6" x="614" y="111" width="122" height="108" text="R.Madrid - Barcleona&#xD;&#xA;(R.Madrid)  120 tokens&#xD;&#xA;&#xD;&#xA;Almería - Getafe&#xD;&#xA;(Almería) 50 tokens" measuredWidth="122" measuredHeight="108">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="609" y="319" width="132" text="Total: 170 tokens" measuredWidth="132" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="150" y="90" width="121" text="Liga Santander" measuredWidth="121" measuredHeight="23" textAlignment="Center">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="9" x="146" y="111" width="125" height="265" text="Equipo, Puntos,&#xD;&#xA;R.Madrid, 53,&#xD;&#xA;Barcelona, 50,&#xD;&#xA;Almería, 35&#xD;&#xA;Betis, 28&#xD;&#xA;Getafe, 25&#xD;&#xA;Cádiz, 23&#xD;&#xA;Zaragoza, 20&#xD;&#xA;Racing S, 18&#xD;&#xA;Sporting G, 17&#xD;&#xA;Deportivo C, 13&#xD;&#xA;Huesca, 10&#xD;&#xA;" measuredWidth="125" measuredHeight="265" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="540" y="101" width="45" height="26" text="Sig" measuredWidth="45" measuredHeight="26" background="#00f" style="pointright">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="288" y="101" width="45" height="26" text="Ant" measuredWidth="45" measuredHeight="26" background="#00f" style="pointleft">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="12" x="566" y="146" height="199" measuredWidth="17" measuredHeight="199"/>
+  <widgets xsi:type="model:Button" id="13" x="664" y="344" width="68" height="22" text="Confirmar" measuredWidth="68" measuredHeight="22" background="#0f0" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="614" y="303" width="114" measuredWidth="114" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="15" x="298" y="151" width="87" text="R.Madrid" measuredWidth="87" measuredHeight="29" textAlignment="Right">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="474" y="151" width="87" text="Barcelona" measuredWidth="87" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="17" x="304" y="177" width="249" measuredWidth="249" measuredHeight="6"/>
+  <widgets xsi:type="model:Checkbox" id="18" x="384" y="154" measuredWidth="21" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="19" x="454" y="154" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="298" y="192" width="87" text="Almería" measuredWidth="87" measuredHeight="29" textAlignment="Right">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="474" y="192" width="87" text="Getafe" measuredWidth="87" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="22" x="304" y="218" width="249" measuredWidth="249" measuredHeight="6"/>
+  <widgets xsi:type="model:Checkbox" id="23" x="384" y="195" measuredWidth="21" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="24" x="454" y="195" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="298" y="233" width="87" text="Betis" measuredWidth="87" measuredHeight="29" textAlignment="Right">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="474" y="233" width="87" text="Zaragoza" measuredWidth="87" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="27" x="304" y="259" width="249" measuredWidth="249" measuredHeight="6"/>
+  <widgets xsi:type="model:Checkbox" id="28" x="384" y="236" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="29" x="454" y="236" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="298" y="271" width="87" text="Racing S." measuredWidth="87" measuredHeight="29" textAlignment="Right">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="474" y="271" width="87" text="Huesca" measuredWidth="87" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="32" x="304" y="297" width="249" measuredWidth="249" measuredHeight="6"/>
+  <widgets xsi:type="model:Checkbox" id="33" x="384" y="274" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="34" x="454" y="274" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="35" x="408" y="154" width="41" text="120" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="36" x="408" y="192" width="41" text="50" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="37" x="408" y="236" width="41" text="0" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="38" x="408" y="274" width="41" text="0" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="39" x="634" y="146" width="73" measuredWidth="73" measuredHeight="6"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
