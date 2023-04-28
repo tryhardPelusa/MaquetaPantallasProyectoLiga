@@ -10,23 +10,23 @@
   </widgets>
   <widgets xsi:type="model:VButtonBar" id="5" x="706" y="360" width="209" height="240" text="Ligas Públicas&#xA;Premiere League&#xA;La liga Santander&#xA;NBA&#xA;La liga 123&#xA;Liga ABC&#xA;WNBA&#xA;" measuredWidth="209" measuredHeight="240" selection="0">
     <font/>
-    <items x="0" y="0" width="209" height="34" text="Ligas Públicas"/>
-    <items x="0" y="34" width="209" height="33" text="Premiere League"/>
-    <items x="0" y="67" width="209" height="33" text="La liga Santander"/>
-    <items x="0" y="100" width="209" height="33" text="NBA"/>
-    <items x="0" y="133" width="209" height="33" text="La liga 123"/>
-    <items x="0" y="166" width="209" height="33" text="Liga ABC"/>
-    <items x="0" y="199" width="209" height="41" text="WNBA"/>
+    <items link="LigaEspecifica.screen" x="0" y="0" width="209" height="34" text="Ligas Públicas"/>
+    <items link="LigaEspecifica.screen" x="0" y="34" width="209" height="33" text="Premiere League"/>
+    <items link="LigaEspecifica.screen" x="0" y="67" width="209" height="33" text="La liga Santander"/>
+    <items link="LigaEspecifica.screen" x="0" y="100" width="209" height="33" text="NBA"/>
+    <items link="LigaEspecifica.screen" x="0" y="133" width="209" height="33" text="La liga 123"/>
+    <items link="LigaEspecifica.screen" x="0" y="166" width="209" height="33" text="Liga ABC"/>
+    <items link="LigaEspecifica.screen" x="0" y="199" width="209" height="41" text="WNBA"/>
   </widgets>
   <widgets xsi:type="model:SearchField" id="6" x="1176" y="360" width="112" text="Buscar Ligas" measuredWidth="112" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:VButtonBar" id="7" x="949" y="359" width="198" height="242" text="Ligas Privadas&#xA;Pocholos CUP&#xA;U-TAD League&#xA;Copa Programación&#xA;&#xA;&#xA;&#xA;" measuredWidth="198" measuredHeight="242" selection="0">
     <font/>
-    <items x="0" y="0" width="198" height="34" text="Ligas Privadas"/>
-    <items x="0" y="34" width="198" height="33" text="Pocholos CUP"/>
-    <items x="0" y="67" width="198" height="33" text="U-TAD League"/>
-    <items x="0" y="100" width="198" height="33" text="Copa Programación"/>
+    <items link="LigaEspecifica.screen" x="0" y="0" width="198" height="34" text="Ligas Privadas"/>
+    <items link="LigaEspecifica.screen" x="0" y="34" width="198" height="33" text="Pocholos CUP"/>
+    <items link="LigaEspecifica.screen" x="0" y="67" width="198" height="33" text="U-TAD League"/>
+    <items link="LigaEspecifica.screen" x="0" y="100" width="198" height="33" text="Copa Programación"/>
     <items x="0" y="133" width="198" height="33"/>
     <items x="0" y="166" width="198" height="33"/>
     <items x="0" y="199" width="198" height="43"/>
@@ -36,7 +36,7 @@
   <widgets xsi:type="model:TextArea" id="10" x="949" y="488" width="198" height="112" text=".&#xD;&#xA;.&#xD;&#xA;             Para participar en ligas              .                  debes registrarte" measuredWidth="198" measuredHeight="112">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="13" x="1016" y="560" text="Registrarte" measuredWidth="76" measuredHeight="25" background="#00f" style="round">
+  <widgets xsi:type="model:Button" id="13" x="1016" y="560" text="Registrarte" measuredWidth="76" measuredHeight="25" background="#00f" link="PantallaRegistro.screen" style="round">
     <font/>
   </widgets>
   <widgets xsi:type="model:Panel" id="15" x="1176" y="408" width="112" height="192" measuredWidth="112" measuredHeight="192"/>

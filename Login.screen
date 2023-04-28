@@ -7,25 +7,25 @@
   <widgets xsi:type="model:Label" id="3" x="252" y="219" width="89" measuredWidth="89" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="4" x="316" y="219" width="201" text="Username" measuredWidth="201" measuredHeight="28">
+  <widgets xsi:type="model:TextField" id="4" x="316" y="219" width="201" text="Username" measuredWidth="201" measuredHeight="29">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="5" x="316" y="254" width="201" text="Password" measuredWidth="201" measuredHeight="28">
+  <widgets xsi:type="model:TextField" id="5" x="316" y="254" width="201" text="Password" measuredWidth="201" measuredHeight="29">
     <font size="15px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="6" x="370" y="314" width="93" height="33" text="Acceder" measuredWidth="93" measuredHeight="33" background="#0f0" style="round">
+  <widgets xsi:type="model:Button" id="6" x="370" y="314" width="93" height="33" text="Acceder" measuredWidth="93" measuredHeight="33" background="#0f0" link="pantallaPrincipal.screen" style="round">
     <font size="20px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="7" x="352" y="360" width="129" text="¿No tienes cuenta aún?" measuredWidth="129" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="8" x="308" y="381" width="101" height="33" text="Registrarse" measuredWidth="101" measuredHeight="33" background="#00f" style="round">
+  <widgets xsi:type="model:Button" id="8" x="308" y="381" width="101" height="33" text="Registrarse" measuredWidth="101" measuredHeight="33" background="#00f" link="PantallaRegistro.screen" style="round">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="9" x="428" y="381" width="101" height="33" text="Invitado" measuredWidth="101" measuredHeight="33" background="#00f" style="round">
+  <widgets xsi:type="model:Button" id="9" x="428" y="381" width="101" height="33" text="Invitado" measuredWidth="101" measuredHeight="33" background="#00f" link="pantallaPrincipal.screen" style="round">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Link" id="10" x="316" y="281" text="¿Has olvidado la contraseña?" measuredWidth="152" measuredHeight="21">
+  <widgets xsi:type="model:Link" id="10" x="316" y="281" text="¿Has olvidado la contraseña?" measuredWidth="155" measuredHeight="23" link="RecuperacionDeCuenta.screen">
     <font size="11px"/>
   </widgets>
   <hRuler/>

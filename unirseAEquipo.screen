@@ -8,7 +8,7 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Image" id="11" x="705" y="307" width="160" height="104" measuredWidth="160" measuredHeight="104" src="assets/istockphoto-1161534890-612x612.jpg"/>
-  <widgets xsi:type="model:Button" id="12" x="510" y="381" text="Unirme" measuredWidth="59" measuredHeight="25" background="#00f" style="round">
+  <widgets xsi:type="model:Button" id="12" x="510" y="381" text="Unirme" measuredWidth="59" measuredHeight="25" background="#00f" link="PantallaEquipoEspacifico.screen" style="round">
     <font/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="13" x="472" y="456" width="200" height="76" text="Resultados posibles:&#xD;&#xA;- ¡Felicidades! Te has unido al equipo&#xD;&#xA;- No se ha encontrado el equipo&#xD;&#xA;- El equipo está lleno" measuredWidth="200" measuredHeight="76">

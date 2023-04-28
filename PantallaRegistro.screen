@@ -53,7 +53,7 @@
   <widgets xsi:type="model:Label" id="25" x="510" y="278" text=" *" measuredWidth="14" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="26" x="866" y="395" text="Registrarse" measuredWidth="77" measuredHeight="25" background="#3d85c6">
+  <widgets xsi:type="model:Button" id="26" x="866" y="395" text="Registrarse" measuredWidth="77" measuredHeight="25" background="#3d85c6" link="pantallaPrincipal.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="28" x="624" y="352" text="se añadiran 300 monedas una &#xD;&#xA;vez se halla registrado, una cierta &#xD;&#xA;cantidad de monedas se renovaran &#xD;&#xA;diariamente" measuredWidth="196" measuredHeight="68">
@@ -73,7 +73,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="87" x="377" y="148" width="608" measuredWidth="608" measuredHeight="6"/>
   <hRuler>
-    <guides position="485"/>
+    <guides position="372"/>
   </hRuler>
   <vRuler/>
   <font size="12px"/>

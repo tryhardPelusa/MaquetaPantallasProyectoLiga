@@ -13,10 +13,10 @@
   <widgets xsi:type="model:Label" id="5" x="592" y="438" text="No tienes equipo?, crea o unete a uno :D" measuredWidth="219" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="6" x="810" y="437" text="Unirse" measuredWidth="53" measuredHeight="25" background="#3d85c6">
+  <widgets xsi:type="model:Button" id="6" x="810" y="437" text="Unirse" measuredWidth="53" measuredHeight="25" background="#3d85c6" link="unirseAEquipo.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="7" x="864" y="437" text="Crear" measuredWidth="48" measuredHeight="25" background="#3d85c6">
+  <widgets xsi:type="model:Button" id="7" x="864" y="437" text="Crear" measuredWidth="48" measuredHeight="25" background="#3d85c6" link="CrearEquipo.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="9" x="802" y="147" measuredWidth="6" measuredHeight="23">
@@ -28,7 +28,7 @@
   <widgets xsi:type="model:Label" id="11" x="888" y="147" measuredWidth="6" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="12" x="696" y="306" width="73" text="Unirse" measuredWidth="73" measuredHeight="25" background="#3d85c6">
+  <widgets xsi:type="model:Button" id="12" x="696" y="306" width="73" text="Unirse" measuredWidth="73" measuredHeight="25" background="#3d85c6" link="LigaEspecifica.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Menu" id="15" x="338" y="157" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">

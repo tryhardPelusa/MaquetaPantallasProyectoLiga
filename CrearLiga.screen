@@ -44,14 +44,8 @@
   <widgets xsi:type="model:TextArea" id="16" x="224" y="303" width="217" height="54" text="Ej.: Trofeo + 100€ para el primer puesto,&#xD;&#xA;trofeo + 50€ para el segundo puesto..." measuredWidth="217" measuredHeight="54" state="disabled">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Menu" id="17" x="101" y="67" width="594" text="&amp;Ligas, &amp;Apuestas, &amp;Equipos                                                                                                           &amp;Mi cuenta, &amp;Sign out" measuredWidth="594" measuredHeight="27">
-    <items x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
-    <items x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
-    <items x="102" y="0" width="427" height="27" text="&amp;Equipos                                                                                                           &amp;Mi cuenta"/>
-    <items x="529" y="0" width="55" height="27" text="&amp;Sign out"/>
-  </widgets>
   <widgets xsi:type="model:VLine" id="18" x="480" y="143" height="214" measuredWidth="6" measuredHeight="214"/>
-  <widgets xsi:type="model:Label" id="19" x="528" y="132" width="137" text="Reglamento" measuredWidth="137" measuredHeight="28" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="19" x="528" y="132" width="137" text="Reglamento" measuredWidth="137" measuredHeight="29" textAlignment="Center">
     <font size="15px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="20" x="496" y="175" width="121" text="Puntos por victoria" measuredWidth="121" measuredHeight="23">
@@ -72,11 +66,18 @@
   <widgets xsi:type="model:Spinner" id="25" x="608" y="239" width="65" text="0" measuredWidth="65" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="26" x="536" y="312" width="113" height="45" text="CREAR" measuredWidth="113" measuredHeight="45" background="#0f0" style="round">
+  <widgets xsi:type="model:Button" id="26" x="536" y="312" width="113" height="45" text="CREAR" measuredWidth="113" measuredHeight="45" background="#0f0" link="pantallaPrincipal.screen" style="round">
     <font size="16px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="27" x="106" y="104" width="73" height="29" text="VOLVER" measuredWidth="73" measuredHeight="29" background="#f00" style="pointleft">
+  <widgets xsi:type="model:Button" id="27" x="106" y="104" width="73" height="29" text="VOLVER" measuredWidth="73" measuredHeight="29" background="#f00" link="pantallaPrincipal.screen" style="pointleft">
     <font/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="28" x="106" y="67" width="590" text="&amp;Ligas,&amp;Apuestas,&amp;Equipos,                                                                                                        &amp;Mi cuenta,&amp;Sign out" measuredWidth="590" measuredHeight="27">
+    <items link="pantallaPrincipal.screen" x="5" y="0" width="38" height="27" text="&amp;Ligas"/>
+    <items link="Apuestas.screen" x="43" y="0" width="59" height="27" text="&amp;Apuestas"/>
+    <items link="CrearEquipo.screen" x="102" y="0" width="53" height="27" text="&amp;Equipos"/>
+    <items link="MiCuenta.screen" x="155" y="0" width="373" height="27" text="                                                                                                       &amp;Mi cuenta"/>
+    <items link="Login.screen" x="528" y="0" width="55" height="27" text="&amp;Sign out"/>
   </widgets>
   <hRuler/>
   <vRuler/>
